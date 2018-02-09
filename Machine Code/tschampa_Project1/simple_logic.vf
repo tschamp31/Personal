@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : simple_logic.vf
+// /___/   /\     Timestamp : 03/26/2014 03:55:28
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family artix7 -verilog "C:/Users/Dope/Desktop/Computer Science/SER/tschampa_Project1/simple_logic.vf" -w "C:/Users/Dope/Desktop/Computer Science/SER/tschampa_Project1/simple_logic.sch"
+//Design Name: simple_logic
+//Device: artix7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module simple_logic(A, 
+                    B, 
+                    C, 
+                    F);
+
+    input A;
+    input B;
+    input C;
+   output F;
+   
+   wire XLXN_2;
+   wire XLXN_5;
+   wire XLXN_20;
+   
+   AND2  XLXI_1 (.I0(A), 
+                .I1(XLXN_20), 
+                .O(XLXN_2));
+   INV  XLXI_2 (.I(B), 
+               .O(XLXN_20));
+   OR2  XLXI_3 (.I0(XLXN_2), 
+               .I1(XLXN_5), 
+               .O(F));
+   AND2  XLXI_4 (.I0(B), 
+                .I1(C), 
+                .O(XLXN_5));
+endmodule

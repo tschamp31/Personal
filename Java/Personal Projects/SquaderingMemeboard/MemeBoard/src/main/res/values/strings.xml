@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Squadering Memeboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">MemeBoard</string>
+    <string name="configure">Select Sounds</string>
+    <string name="add_widget">Add widget</string>
+    <string name="hit">Hit</string>
+    <string name="air_horn">Air Horn</string>
+    <string name="da_wae">Da Wae</string>
+    <string name="assmuncher">Ass Muncher</string>
+</resources>

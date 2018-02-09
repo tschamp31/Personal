@@ -1,0 +1,1 @@
+option = int(input("If you would like to encrypt a message type 1. If you would like to decrypt a message type 2.")

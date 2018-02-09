@@ -1,0 +1,28 @@
+Command line:
+   simple_logic_simple_logic_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52374
+
+Wed Mar 26 04:05:33 2014
+
+
+ Elaboration Time: 0.046801 sec
+
+ Current Memory Usage: 682.365 Meg
+
+ Total Signals          : 32
+ Total Nets             : 20
+ Total Signal Drivers   : 12
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 14
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 103
+
+ Total Simulation Time: 0.046801 sec
+
+ Current Memory Usage: 682.369 Meg
+
+Wed Mar 26 04:05:40 2014
+

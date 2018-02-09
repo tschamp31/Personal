@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:id="@+id/dawaeButtonWidget"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/da_wae" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/mlgairhornButtonWidget"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/air_horn" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/mlghitButtonWidget"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/hit" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/assmuncherButtonWidget"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/assmuncher" />
+
+</LinearLayout>

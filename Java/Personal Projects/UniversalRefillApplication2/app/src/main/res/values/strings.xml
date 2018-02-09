@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Universal RefillApplication</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="pharmacy_id">Pharmacy ID #</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="patient_id">Patient ID #</string>
+    <string name="rx_member_id">RX Member ID</string>
+    <string name="rx_bin">RX Bin</string>
+    <string name="rx_pcn">RX PCN</string>
+    <string name="rx_group_id">RX Group ID</string>
+    <string name="rxInsuranceNameValue"> </string>
+    <string name="rxBinValue"> </string>
+    <string name="rxPCNValue"> </string>
+    <string name="rxMemberIDValue"> </string>
+    <string name="rxGroupIDValue"> </string>
+    <string name="rx_insurance_name">RX Insurance Name</string>
+    <string name="go">Go</string>
+    <string name="rx_insurance_information">RX Insurance Information</string>
+</resources>

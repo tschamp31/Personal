@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Users\Dope\Desktop\Computer Science\SER\TsChampa_Project2\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Dope/Desktop/Computer Science/SER/TsChampa_Project2/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:65 - Your license for 'ISIM' is for trial use only.
+WARNING:Security:41 - Your license for ISIM expires TODAY at midnight.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+input1=0000,input2=0000,out=0000,a=1,b=1,c=1,d=1,e=1,f=1,g=0
+input1=0001,input2=0011,out=0100,a=0,b=1,c=1,d=0,e=0,f=1,g=1
+input1=0101,input2=0111,out=1100,a=0,b=0,c=1,d=1,e=1,f=1,g=0
+input1=1001,input2=1011,out=0100,a=0,b=1,c=1,d=0,e=0,f=1,g=1
+input1=1001,input2=0011,out=1100,a=0,b=0,c=1,d=1,e=1,f=1,g=0
+input1=0101,input2=0011,out=1000,a=1,b=1,c=1,d=1,e=1,f=1,g=1
+input1=0000,input2=0111,out=0111,a=1,b=1,c=1,d=0,e=0,f=0,g=0

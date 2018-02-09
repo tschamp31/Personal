@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Dope/Desktop/Computer Science/SER/tschampa_Project1/simple_logic_simple_logic_sch_tb_isim_beh.exe" -prj "C:/Users/Dope/Desktop/Computer Science/SER/tschampa_Project1/simple_logic_simple_logic_sch_tb_beh.prj" "work.simple_logic_simple_logic_sch_tb" "work.glbl" 

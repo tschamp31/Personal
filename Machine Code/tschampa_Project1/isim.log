@@ -1,0 +1,23 @@
+ISim log file
+Running: C:\Users\Dope\Desktop\Computer Science\SER\tschampa_Project1\simple_logic_simple_logic_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Dope/Desktop/Computer Science/SER/tschampa_Project1/simple_logic_simple_logic_sch_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+INFO:Security:65 - Your license for 'ISIM' is for trial use only.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+A=0,B=0,C=0,F=0
+A=0,B=0,C=1,F=0
+A=0,B=1,C=0,F=0
+A=1,B=0,C=0,F=1
+A=1,B=1,C=0,F=0
+A=0,B=1,C=1,F=1
+A=1,B=0,C=1,F=1
+A=1,B=1,C=1,F=1
