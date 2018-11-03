@@ -22,16 +22,16 @@ class twitterlistener(tweepy.StreamListener):
 
     def __init___(self):
 
-        consumer_key = 'rwlqF29bMcv24HNwOM6xbykcs'
-        consumer_secret = 'ZbXiKjpasIGpWY6Jv7z7ULDoE7j25S0WCuzvh1cpI5xCXUCo7N'
-        access_token = '1030330030155390978-jRimP6RXJByoG93paVyIZD0nxxsbX6'
-        access_secret = 'b3b51NH0ag6ZYqqfa2089IDC4ViUEApB6Od4tEh2o0qX0'
+        consumer_key = ''*****''
+        consumer_secret = ''*****''
+        access_token = ''*****'-'*****''
+        access_secret = ''*****''
 
         auth = OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_secret)
         api = tweepy.API(auth)
         self.__stream = Stream(auth = api.auth, listener=self)
-        self.__stream.filter(follow=['1030330030155390978'], async=True)
+        self.__stream.filter(follow=[''*****''], async=True)
 
     def on_connect( self ):
         print("Connection established!!")
