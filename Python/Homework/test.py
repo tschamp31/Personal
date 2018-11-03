@@ -8,7 +8,7 @@ from discord import Game
 from discord.ext.commands import Bot
 
 BOT_PREFIX = ("?", "!")
-TOKEN = "NDc5ODc3MTE4MDIxNTk5MjM0.DlftuQ.C-XeUAsHG8KFt0b0MjlrpBNP1mg"  # Get at discordapp.com/developers/applications/me
+TOKEN = "'*****'"  # Get at discordapp.com/developers/applications/me
 client = Bot(command_prefix=BOT_PREFIX)
 
 extensions = ['TwitterCog','TestCog']
