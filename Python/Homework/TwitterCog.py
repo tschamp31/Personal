@@ -68,20 +68,20 @@ class output():
     async def messagesender(self, status):
         status.tweet_web_url = f'https://twitter.com/i/web/status/{status.id}'
         #status.tweet_url = f'https://twitter.com/{tweet.author.screen_name}/status/{tweet.id}'
-        await self.bot.send_message(discord.Object(id='436538608321691670'), f'@{status.author.name}' + " tweeted this at " + f'{status.created_at}' + ":")
-        await self.bot.send_message(discord.Object(id='436538608321691670'), status.tweet_web_url)
+        await self.bot.send_message(discord.Object(id='*****'), f'@{status.author.name}' + " tweeted this at " + f'{status.created_at}' + ":")
+        await self.bot.send_message(discord.Object(id='*****'), status.tweet_web_url)
         embed = discord.Embed(color=0x00ff00, title=status.author.name)
         embed.set_author(name=f'@{status.author.name}')
         embed.set_thumbnail(url=status.author.profile_image_url_https)
         embed.add_field(value=status.text, inline=False)
-        await self.bot.send_message(discord.Object(id='436538608321691670'), embed=embed)
+        await self.bot.send_message(discord.Object(id='*****'), embed=embed)
         
 
 def setup(bot):
-    consumer_key = 'rwlqF29bMcv24HNwOM6xbykcs'
-    consumer_secret = 'ZbXiKjpasIGpWY6Jv7z7ULDoE7j25S0WCuzvh1cpI5xCXUCo7N'
-    access_token = '1030330030155390978-jRimP6RXJByoG93paVyIZD0nxxsbX6'
-    access_secret = 'b3b51NH0ag6ZYqqfa2089IDC4ViUEApB6Od4tEh2o0qX0'
+    consumer_key = '*****'
+    consumer_secret = '*****'
+    access_token = '*****'
+    access_secret = '*****'
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
